@@ -10,8 +10,12 @@
         padding: 0px 50px;
         flex-flow: column wrap;
     }
+    #divsobre{
+        margin: 0;
+    }
     #imgprogramador{
         margin-top: -350px;
+        margin-left: -10px;
         max-width: 400px;
         width: 100%;
     }
