@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@media screen and (min-width: 600px) {
+    form{
+        width: 400px;
+    }
+}
+@media screen and (min-width: 992px) {
+    body{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    main img{
+        display: block;
+    }
+    #segundo{
+        width: 500px;
+    }
+}

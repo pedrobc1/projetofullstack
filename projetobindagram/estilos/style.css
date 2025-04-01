@@ -1,0 +1,137 @@
+@charset "UTF-8";
+:root{
+    --corfundo: #FAFAFA;
+    --cormain: #FFFFFF;
+    --corazul: #3192F4;
+    --corborda: #EDEDED;
+}
+/* color: var(--corfundo) */
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: var(--corfundo);
+}
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vh - 72px);
+}
+main img{
+    display: none;
+}
+
+label{
+    display: none;
+}
+form{
+    width: 100%;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid var(--corborda);
+    border-radius: 3px;
+}
+input[type="submit"]{
+    background-color: var(--corazul);
+    color: var(--corfundo);
+    border: none;
+    cursor: pointer;
+}
+
+#segundo{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#primeiracaixa{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cormain);
+    border: 1px solid var(--corborda);
+    padding: 20px;
+    width: 90%;
+}
+#primeiracaixa p {
+    text-align: center;
+    margin-top: 15px;
+    color: gray;
+    font-weight: bold;
+}
+#primeiracaixa img{
+    width: 200px;
+    display: block;
+}
+#primeiracaixa a{
+    background-color: var(--corazul);
+    text-decoration: none;
+    text-align: center;
+    color: var(--cormain);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 15px;
+}
+#segundacaixa{
+    text-align: center;
+    background-color: var(--cormain);
+    border: 1px solid var(--corborda);
+    padding: 20px;
+    width: 90%;
+    margin-top: 10px;
+}
+#segundacaixa a{
+    color: var(--corazul);
+    text-decoration: none;
+}
+#terceiracaixa{
+    text-align: center;
+    margin-top: 20px;
+}
+#terceiracaixa img{
+    width: 150px;
+    display: inline;
+}
+#terceiracaixa p{
+    margin-bottom: 20px;
+}
+footer{  
+    text-align: center;
+    background-color: var(--corfundo);
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-right: 8px;
+}
+footer p{
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    display: inline-block;
+}
+.divisor-conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.line{
+    height: 1px;
+    background-color: #e6e6e6;
+    width: 35%;
+}

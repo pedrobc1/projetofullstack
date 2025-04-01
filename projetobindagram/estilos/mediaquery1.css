@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@media screen and (min-width: 600px) {
+    form{
+        width: 400px;
+    }
+    #primeiracaixa a{
+        width: 400px;
+    }
+    #segundo{
+        width: 550px;
+    }
+}
