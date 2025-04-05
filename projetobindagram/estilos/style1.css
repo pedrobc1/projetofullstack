@@ -15,6 +15,7 @@
 }
 body{
     background-color: var(--corfundo);
+    height: 100vh;
 }
 main{
     display: flex;
