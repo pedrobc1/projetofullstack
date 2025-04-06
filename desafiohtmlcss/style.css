@@ -17,7 +17,7 @@ main{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    height: 75vh;
+    height: 100vh;
     padding: 70px 25px;
 }
 #info{
